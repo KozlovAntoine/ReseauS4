@@ -56,6 +56,4 @@ public class Exo5Server {
 		}
 		return "0" + res;
 	}
-	
-
 }
