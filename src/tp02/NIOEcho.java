@@ -25,7 +25,7 @@ public class NIOEcho {
 	SocketChannel canal;
 
 	public NIOEcho() throws IOException {
-		SocketAddress remote = new InetSocketAddress("localhost",9876);
+		SocketAddress remote = new InetSocketAddress("localhost",2121);
 		canal = SocketChannel.open();
 		canal.configureBlocking(false);
 		if(canal.connect(remote)) 

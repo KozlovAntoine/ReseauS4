@@ -10,7 +10,7 @@ public class User {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nom d'utilisateur :");
 		this.user = sc.nextLine();
-		this.pass = new String(System.console().readPassword("Mot de passe : "));
+		//this.pass = new String(System.console().readPassword("Mot de passe : "));
 	}
 
 }
